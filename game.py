@@ -18,6 +18,13 @@ class Game:
         map_layer = pyscroll.orthographic.BufferedRenderer(map_data, self.win.get_size())
         map_layer.zoom = 2
 
+        # définir une liste qui va stocker les murs
+        self.walls = []
+
+        for obj in tmx_data.objects:
+            if obj.type == 'collision':
+                self.walls.append(pygame.Rect(obj.x, obj.y, obj.width, obj.height))
+
         # générer un joueur
         player_position = tmx_data.get_object_by_name('birth_point')
         self.player = Player(player_position.x, player_position.y)

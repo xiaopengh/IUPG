@@ -9,7 +9,7 @@ class Player(pygame.sprite.Sprite):
         super().__init__()
         self.sprite_sheet_1 = pygame.image.load('./assets/huntress.png')
         self.sprite_sheet_2 = pygame.image.load('./assets/huntress_left.png')
-        self.image = self.get_image(self.sprite_sheet_1, 50+10, 55)
+        self.image = self.get_image(self.sprite_sheet_1, 50+8, 55)
         self.image.set_colorkey([0, 0, 0])
         self.rect = self.image.get_rect()
         self.position = [x, y]
