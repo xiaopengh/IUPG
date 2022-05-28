@@ -30,7 +30,7 @@ class Game:
         self.player = Player(player_position.x, player_position.y)
 
         # dessiner le groupe de calques
-        self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=1)
+        self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=3)
         self.group.add(self.player)
 
         # définir le rectangle de la collision pour entrer dans le portail
@@ -41,11 +41,13 @@ class Game:
         pressed = pygame.key.get_pressed()
         if pressed[pygame.K_w]:
             self.player.move_up()
+            self.player.change_animation('up')
         elif pressed[pygame.K_a]:
             self.player.move_left()
             self.player.change_animation('left')
         elif pressed[pygame.K_s]:
             self.player.move_down()
+            self.player.change_animation('down')
         elif pressed[pygame.K_d]:
             self.player.move_right()
             self.player.change_animation('right')
@@ -69,7 +71,7 @@ class Game:
         self.player = Player(player_position.x, player_position.y)
 
         # dessiner le groupe de calques
-        self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=1)
+        self.group = pyscroll.PyscrollGroup(map_layer=map_layer, default_layer=3)
         self.group.add(self.player)
 
         # définir le rectangle de la collision pour entrer dans le portail

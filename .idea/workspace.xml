@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20c63cc9-c741-4653-81f8-b53da0dc961b" name="Changes" comment="scr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carte.tmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/carte_dungeon.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte_dungeon.tmx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
@@ -41,6 +39,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG" />
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\src" />
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\sprites" />
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\map" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Projet_cours_Python" />
@@ -54,7 +60,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\爷爷叫晓鹏\Desktop\IUPG\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

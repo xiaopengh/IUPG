@@ -7,16 +7,17 @@ class Player(pygame.sprite.Sprite):
 
     def __init__(self, x, y):
         super().__init__()
-        self.sprite_sheet_1 = pygame.image.load('./assets/huntress.png')
-        self.sprite_sheet_2 = pygame.image.load('./assets/huntress_left.png')
-        self.image = self.get_image(self.sprite_sheet_1, 50+8, 55)
+        self.sprite_sheet = pygame.image.load('player.png')
+        self.image = self.get_image(self.sprite_sheet, 0, 0)
         self.image.set_colorkey([0, 0, 0])
         self.rect = self.image.get_rect()
         self.position = [x, y]
         self.speed = 3
         self.images = {
-            'left': self.get_image(self.sprite_sheet_2, 50+8, 55),
-            'right': self.get_image(self.sprite_sheet_1, 50+8, 55)
+            'down': self.get_image(self.sprite_sheet, 0, 0),
+            'left': self.get_image(self.sprite_sheet, 0, 32),
+            'right': self.get_image(self.sprite_sheet, 0, 64),
+            'up': self.get_image(self.sprite_sheet, 0, 96)
         }
         self.old_position = self.position.copy()
         self.feet = pygame.Rect(0, 0, self.rect.width * 0.5, self.rect.height * 0.2)
@@ -43,6 +44,6 @@ class Player(pygame.sprite.Sprite):
     def move_left(self): self.position[0] -= self.speed
 
     def get_image(self, sheet, x, y):
-        image = pygame.Surface([34, 42])
-        image.blit(sheet, (0, 0), (x, y, 34, 42))
+        image = pygame.Surface([32, 32])
+        image.blit(sheet, (0, 0), (x, y, 32, 32))
         return image
