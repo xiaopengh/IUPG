@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c63cc9-c741-4653-81f8-b53da0dc961b" name="Changes" comment="scr">
+      <change afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte_dungeon.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte_dungeon.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte_principale.tmx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,10 +44,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\carte" />
       <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG" />
-      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\src" />
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\assets" />
+      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\maps" />
       <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\sprites" />
-      <recent name="C:\Users\爷爷叫晓鹏\Desktop\IUPG\map" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,7 +124,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
