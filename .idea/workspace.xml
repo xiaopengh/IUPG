@@ -4,8 +4,9 @@
     <list default="true" id="20c63cc9-c741-4653-81f8-b53da0dc961b" name="Changes" comment="scr">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carte.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte.tmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maisons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/maisons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte_dungeon.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte_dungeon.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte_house1.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte_house1.tmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carte_house2.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/carte_house2.tmx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
