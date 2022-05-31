@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="340">
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="346">
  <tileset firstgid="1" source="nature.tsx"/>
  <tileset firstgid="721" source="dungeon_asset.tsx"/>
  <tileset firstgid="977" source="ile.tsx"/>
@@ -1058,5 +1058,20 @@
   </object>
   <object id="337" type="collision" x="977" y="851" width="109.5" height="19"/>
   <object id="339" type="collision" x="978" y="887.5" width="108.5" height="136.5"/>
+  <object id="340" type="texte" x="332.5" y="1318.67" width="212.167" height="18">
+   <text wrap="1" color="#ff0000">Le début de votre cauchemar</text>
+  </object>
+  <object id="341" type="texte" x="228.833" y="307" width="140.273" height="18">
+   <text wrap="1" color="#ff00ff">Un endroit magique </text>
+  </object>
+  <object id="342" type="texte" x="214.75" y="874.25" width="234.25" height="18">
+   <text wrap="1" color="#ff5500">Envie de prendre des vacances? </text>
+  </object>
+  <object id="343" type="texte" x="1226.5" y="773.167" width="282.333" height="234.167">
+   <text wrap="1" color="#ffffff">Bienvenue voyageur, c’est votre jour de chance. Vous entrez dans le monde merveilleux de IUPG. Je me présente je suis l’incroyable, l’inimaginable, le magnifique Igor (votre guide). Durant votre aventure vous rencontrerez deux autres guides (pas aussi incroyable que moi, bien sûr), ils vous guideront à travers ce monde plein de dangers. VOTRE MISSION - TROUVER LE COFFRE QUI CONTIENT LE TRÉSOR DE DRAGON</text>
+  </object>
+  <object id="345" type="texte" x="996.833" y="91.6667" width="156.333" height="38.6667">
+   <text wrap="1" color="#55007f">Essayer cette entrée si vous voulez</text>
+  </object>
  </objectgroup>
 </map>

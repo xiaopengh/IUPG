@@ -1,8 +1,10 @@
 import pygame
 import pytmx
 import pyscroll
-from player import Player
 
+import dialog
+from player import Player
+from dialog import DialogBox
 
 class Game:
 
@@ -48,6 +50,8 @@ class Game:
         # générer un joueur
         player_position = tmx_data1.get_object_by_name('birth_point')
         self.player = Player(player_position.x, player_position.y)
+
+        self.dialog_box = DialogBox()
 
         # dessiner le groupe de calques
         self.group = pyscroll.PyscrollGroup(map_layer=map_layer1, default_layer=6)
@@ -400,10 +404,15 @@ class Game:
             self.player.save_location()
             self.handle_input()
             self.update()
+            self.dialog_box.render(self.win)
             pygame.display.flip()
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
+                elif event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_SPACE:
+                        self.dialog_box.next_text()
+
 
         pygame.quit()
